@@ -1,0 +1,437 @@
+.title, .footer h1{
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.footer {
+    display: flex;
+    position: absolute;
+    background-color: rgb(57, 57, 57);
+    z-index: -1;
+    height: 100px;
+    width: 140%;
+    margin-left: -10px;
+    top: 0;
+}
+
+body {
+    background-color: rgb(39, 39, 39);
+    padding: 0;
+    margin-top: 0;
+
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+#button[disabled] {
+    background-color: gray;
+    border: 0;
+}
+
+.button1:hover {
+    transform: translateY(-4px);
+    background-color: #d78a0e;
+}
+
+.button2 {
+    color: #ffffff;    
+    background-color: #f6efbd00;
+    border: 3px solid #d78a0e;
+    height: 80px;
+    width: 600px;
+    border-radius: 10px;
+    margin-top: 200px;
+
+}
+
+.gen2buy {
+    margin-top: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    width: fit-content;
+}
+
+.tokenupgbtn {
+    position: absolute;
+    margin-top: -500px;
+}
+
+.tokenupgrades {
+    margin-right: auto;
+    margin-left: auto;
+
+    border: 5px solid green;
+
+}
+
+.tokentext {
+    color: white;
+    background-color: white;
+    width: 280px;
+    height: 100px;
+}
+
+.clickbutton {
+    display: inline-block;
+    position: relative;
+    height: 150px;
+    width: 200px;
+    font-size: 19px;
+    text-align: left;
+    padding: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 1;
+    border-radius: 15px;
+
+    color: #ffffff;    
+    background-color: #f6efbd00;
+    border: 3px solid #d78a0e;
+
+    align-content: center;
+}
+
+.clickbuttondiv {
+    margin-right: auto;
+    margin-left: auto;
+    width: fit-content;
+}
+
+.upgrades {
+    height: 200px;
+    width: 200px;
+    font-size: 19px;
+    text-align: left;
+    padding: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 1;
+    border-radius: 15px;
+
+    color: #ffffff;    
+    background-color: #f6efbd00;
+    border: 3px solid #d78a0e;
+
+
+    transition: transform 0.2s, border 0.7s;
+}
+
+#upgradediv {
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+
+.testing {
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+
+.upgdiv2 {
+    margin-left: auto;
+    margin-right: auto;
+    min-width: fit-content;
+}
+
+.upgrades:hover {
+    transform: translateY(-10px);
+    border: 2px solid rgb(227, 255, 11);
+}
+
+.upgrades2 {
+    display: inline-block;
+    position: relative;
+    height: 200px;
+    width: 200px;
+    font-size: 19px;
+    text-align: left;
+    margin: auto;
+    padding: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 1;
+    border-radius: 15px;
+
+    color: #ffffff;    
+    background-color: #f6efbd00;
+    border: 3px solid #d78a0e;
+
+    transition: transform 0.2s, border 0.2s;
+}
+
+.upgrades2:hover {
+    transform: translateY(-10px);
+    border: 2px solid rgb(227, 255, 11);
+}
+
+
+.tokenupg {
+    display: inline-block;
+    position: relative;
+    height: 200px;
+    width: 200px;
+    font-size: 19px;
+    text-align: left;
+    margin: auto;
+    padding: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 1;
+    border-radius: 15px;
+
+    color: #ffffff;    
+    background-color: #f6efbd00;
+    border: 3px solid #d78a0e;
+
+    transition: transform 0.2s, border 0.2s;
+}
+
+.tokenupg:hover {
+    transform: translateY(-10px);
+    border: 2px solid rgb(227, 255, 11);
+}
+
+h1 {
+    text-align: center;
+    font-size: 5.2vh;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    
+}
+.h4 {
+    font-size: 2.4vh;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.tokens2 {
+    font-size: 2.4vh;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding-top: -90px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+.tokens2_before {
+    font-size: 1vh;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    display: inline-block;
+    padding-bottom: -200px; 
+    margin-top: -200px;
+}
+
+.token_container {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    margin-top: 10px;
+}
+
+.points_before {
+    text-align: center; 
+    font-size: 2vh;
+    font-family: Arial, Helvetica;
+    color: white;
+}
+
+.tab_btn {
+    width: 200px;
+    height: 100px;
+    font-size: 51px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 0 solid;
+    color: white;
+
+    transition: background-color 0.2s;
+}
+
+.tab_box {
+    margin-right: auto;
+    margin-left: 500px;
+    width: fit-content;
+}
+
+.tab_btn:hover {
+    background-color: rgb(72, 71, 71);
+}
+
+.content, .content-box {
+    display: none;
+}
+
+.content.active, .content-box {
+    display: inline-block;
+    width: 100%;
+}
+
+.tab_btn.active {
+    background-color: rgb(72, 71, 71);
+}
+
+.points {
+    font-size: 3vh;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-top: -48.5px;
+    width: 200px;
+    text-align: center;
+}
+
+.points_before2 {
+    text-align: center;
+    font-size: 1vh;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.pointspersec {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.pointspersecdiv {
+    margin-top: -30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+
+.points2 {
+    font-size: 1.2vh;
+    font-family: Arial, Helvetica, sans-serif, monospace;
+    color: white;
+    margin-top: -48.5px;
+    width: 200px;
+}
+
+.energy_before { /* "You have: */
+    font-size: 2vh;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.energy { /* enercy count */
+    display: inline-block;
+    font-size: 3vh;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.energy_container {
+    text-align: center;
+
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.gen2 {
+    display: block;
+    margin-top: 8px;
+    margin-bottom: -55px;
+    height: 100px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+
+    transition: transform 0.2s, background-color 0.6s;
+}
+
+.gen2:hover {
+    transform: translateY(-4px);
+    background-color: #d78a0e;
+}
+
+
+.price {
+    text-align: left;
+    font-size: 20px;
+    margin: 0px 0px 0px 0px;
+    
+}
+.upg-text {
+    font-size: 18px;
+    text-align: center;
+    margin: 10px 0px 0px 0px;
+}
+
+.upg-textupg5 {
+    font-size: 18px;
+    text-align: center;
+    margin: 2px 0px 0px 0px;
+}
+
+.max_upg {
+    font-size: 20px;
+    text-align: right;
+}
+
+.max_upg5 {
+    font-size: 20px;
+    text-align: right;
+    margin-top: 15px;
+}
+
+.upg5boostcounter {
+    text-align: center;
+    font-size: 15px;
+}
+
+.upgtitle {
+    text-align: center;
+    margin: 40px 0 0 0;
+}
+
+.upgtitleupg5 {
+    text-align: center;
+    margin: 21px 0 0 0;
+}
+
+.gen2upg {
+    margin-top: -300px;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+
+.tokenupgradesdiv {
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+
+.buyplasma {
+    margin-top: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+
+.buyplasmabutton {
+    color: #ffffff;    
+    background-color: #f6efbd00;
+    border: 3px solid #620ed7;
+    height: 80px;
+    width: 600px;
+    border-radius: 10px;
+    margin-top: 200px;
+
+    display: block;
+    margin-top: 8px;
+    margin-bottom: -55px;
+    height: 100px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+
+    transition: background-color 0.5s, transform 0.2s;
+}
+
+.buyplasmabutton:hover {
+    background-color: #620ed7;
+    transform: translateY(-5px);
+}
